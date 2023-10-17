@@ -46,4 +46,23 @@
 # words_with_e = [word for word in text.split(" ") if len(word) > 5]
 # print(len(words_with_e))
 
+# 5
+# text = 'In this lecture we will review some additional functionalities of python built-in data structures.'
+# letter_dict = {}
+# for letter in text:
+#     if letter != " " and letter != "-" and letter != ".":
+#         letter_dict[letter] = letter_dict.get(letter, 0) + 1
+# print(letter_dict)
 
+
+# 6
+# import math
+
+# def is_perfect_square(number):
+
+#     if number != 0 and (math.sqrt(number)) * (math.sqrt(number)) == number:
+#         print("Perfect square")
+#     else:
+#         print("Not perfect square")
+
+# is_perfect_square(0)
